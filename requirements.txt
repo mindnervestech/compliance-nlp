@@ -1,0 +1,6 @@
+pdfminer
+BeautifulSoup4
+pandas
+nltk
+spacy
+python-magic

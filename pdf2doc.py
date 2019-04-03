@@ -20,6 +20,7 @@ def pdfparser(data):
     for page in PDFPage.get_pages(fp):
         interpreter.process_page(page)
         data =  retstr.getvalue()
+    # TODO: change the name of the file and put it into output folder    
     f = open("textfile.txt","w+")
     f.write(data)
     f.close()
